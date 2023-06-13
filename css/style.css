@@ -14,6 +14,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
+  border-radius: 1rem;
+}
+
+.drawere {
+  border-radius: 1rem 0 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
