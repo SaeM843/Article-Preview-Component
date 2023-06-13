@@ -1,5 +1,18 @@
 @use "../abstracts/variables" as var;
 
+body {
+    min-height: 100vh;
+    background-color: var.$light-grayish-blue;
+    font-family: var.$theme-text-font;
+}
 .wrapper {
-    background-color: var.$light-grayish-blue
+
+    .container {
+        max-width: 1440px;
+        border: 1px solid pink;
+
+        .content {
+            border: 1px solid blue;
+        }
+    }
 }
