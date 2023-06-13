@@ -38,6 +38,7 @@ body {
 .text-content .comment {
   padding: 1rem 0;
   font-size: 13px;
+  color: hsl(214, 17%, 51%);
 }
 
 .writer-info {
@@ -49,8 +50,16 @@ body {
   display: flex;
   align-items: center;
 }
+.writer-info .writer .writer-details {
+  font-size: 13px;
+  font-weight: 700;
+}
 .writer-info .writer .writer-details .name {
   padding-bottom: 0.3rem;
+  color: hsl(217, 19%, 35%);
+}
+.writer-info .writer .writer-details .published-date {
+  color: hsl(212, 23%, 69%);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@
     .comment {
         padding: 1rem 0;
         font-size: var.$main-font-size;
+        color: var.$desaturated-dark-blue;
     }
 
 }
@@ -25,9 +26,19 @@
         display: flex;
         align-items: center;
 
-        .writer-details .name {
-            padding-bottom: 0.3rem;
+        .writer-details {
+            font-size: var.$main-font-size;
+            font-weight: 700;
 
+            .name {
+                padding-bottom: 0.3rem;
+                color: var.$very-dark-grayish-blue;
+            }
+
+            .published-date {
+                color: var.$grayish-blue;
+            }
         }
+
     }
 }
