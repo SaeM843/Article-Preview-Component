@@ -38,4 +38,9 @@ body {
   font-size: 13px;
 }
 
+.writer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=style.css.map */
