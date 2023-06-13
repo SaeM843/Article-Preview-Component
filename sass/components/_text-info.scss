@@ -18,4 +18,9 @@
 .writer-info {
     display: flex;
     justify-content: space-between;
+
+    .writer {
+        display: flex;
+        align-items: center;
+    }
 }

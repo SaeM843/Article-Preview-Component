@@ -42,5 +42,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.writer-info .writer {
+  display: flex;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
