@@ -1,5 +1,2 @@
 @use "./abstracts/variables" as var;
-
-body {
-    background-color: blue;
-}
+@use "./base/page";

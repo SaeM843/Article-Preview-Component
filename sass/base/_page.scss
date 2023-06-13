@@ -1,0 +1,5 @@
+@use "../abstracts/variables" as var;
+
+.wrapper {
+    background-color: var.$light-grayish-blue
+}
