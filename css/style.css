@@ -24,6 +24,7 @@ body {
 .avatar {
   width: 4rem;
   border-radius: 50%;
+  margin-right: 1.5rem;
 }
 
 .text-content {
@@ -47,6 +48,9 @@ body {
 .writer-info .writer {
   display: flex;
   align-items: center;
+}
+.writer-info .writer .writer-details .name {
+  padding-bottom: 0.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

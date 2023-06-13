@@ -24,5 +24,10 @@
     .writer {
         display: flex;
         align-items: center;
+
+        .writer-details .name {
+            padding-bottom: 0.3rem;
+
+        }
     }
 }
