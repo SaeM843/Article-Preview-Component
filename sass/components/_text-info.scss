@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as var;
+
+.text-content {
+    padding: 3rem;
+
+    h1 {
+        font-size: 1.5rem;
+        color: var.$very-dark-grayish-blue;
+    }
+}

@@ -26,4 +26,12 @@ body {
   border-radius: 50%;
 }
 
+.text-content {
+  padding: 3rem;
+}
+.text-content h1 {
+  font-size: 1.5rem;
+  color: hsl(217, 19%, 35%);
+}
+
 /*# sourceMappingURL=style.css.map */
