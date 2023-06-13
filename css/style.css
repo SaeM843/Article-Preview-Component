@@ -3,10 +3,16 @@ body {
   min-height: 100vh;
   background-color: hsl(210, 46%, 95%);
   font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content {
+.container .content {
   max-width: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
