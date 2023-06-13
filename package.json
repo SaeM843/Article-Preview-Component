@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SaeM843/Article-Preview-Component#readme",
   "dependencies": {
     "sass": "^1.63.3"
+  },
+  "devDependencies": {
+    "modern-css-reset": "^1.4.0"
   }
 }
