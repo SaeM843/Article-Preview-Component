@@ -5,14 +5,7 @@ body {
     background-color: var.$light-grayish-blue;
     font-family: var.$theme-text-font;
 }
-.wrapper {
 
-    .container {
-        max-width: 1440px;
-        border: 1px solid pink;
-
-        .content {
-            border: 1px solid blue;
-        }
-    }
+.content {
+    max-width: 730px;
 }
