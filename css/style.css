@@ -17,7 +17,8 @@ body {
   border-radius: 1rem;
 }
 
-.drawer {
+.dimg {
+  background-image: url("../../images/drawers.jpg");
   border-radius: 1rem 0 0 1rem;
 }
 
