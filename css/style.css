@@ -72,7 +72,10 @@ img {
   color: hsl(212, 23%, 69%);
 }
 
-.share-btn {
+.social-media {
+  position: relative;
+}
+.social-media .share-btn {
   border: none;
   width: 2.5rem;
   height: 2.5rem;
@@ -82,9 +85,29 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.popup {
-  display: none;
+.social-media .popup {
+  position: absolute;
+  display: flex;
+  background-color: hsl(217, 19%, 35%);
+  min-width: 220px;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  padding: 10px 5px;
+  align-items: center;
+  top: -5rem;
+  left: -5.6rem;
+}
+.social-media .popup::before {
+  content: "";
+  position: absolute;
+  height: 1rem;
+  width: 2rem;
+  clip-path: polygon(0 0, 100% 0%, 50% 100%);
+  background-color: hsl(217, 19%, 35%);
+  top: 2.7rem;
+}
+.social-media .popup p {
+  color: hsl(214, 17%, 51%);
 }
 
 /*# sourceMappingURL=style.css.map */

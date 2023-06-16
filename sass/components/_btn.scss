@@ -1,15 +1,48 @@
-.share-btn {
-    border: none;
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@use "../abstracts/variables" as var;
 
-}
 
-.popup {
-    display: none;
+.social-media {
+    position: relative;
+    
+        .share-btn {
+            border: none;
+            width: 2.5rem;
+            height: 2.5rem;
+            text-align: center;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+        .popup {
+            // display: none;
+            position: absolute;
+            display: flex;
+            background-color: var.$very-dark-grayish-blue;
+            min-width: 220px;
+            justify-content: space-evenly;
+            border-radius: 0.5rem;
+            padding: 10px 5px;
+            align-items: center;
+            top: -5rem;
+            left: -5.6rem;
+        
+
+            &::before {
+                content: "";
+                position: absolute;
+                height: 1rem;
+                width: 2rem;
+                clip-path: polygon(0 0, 100% 0%, 50% 100%);
+                background-color: var.$very-dark-grayish-blue;
+                top: 2.7rem;
+            }
+
+            p {
+                color: var.$desaturated-dark-blue;
+            }
+        }
+
 }
