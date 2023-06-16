@@ -3,7 +3,10 @@ img {
 }
 
 .img-drawer {
-    background-image: url("../../images/drawers.jpg");
+    background-image: url("../images/drawers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .avatar {
