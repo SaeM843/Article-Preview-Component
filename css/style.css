@@ -17,6 +17,10 @@ body {
   border-radius: 1rem;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .avatar {
   width: 4rem;
   border-radius: 50%;
