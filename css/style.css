@@ -72,6 +72,21 @@ img {
   color: hsl(212, 23%, 69%);
 }
 
+.share-btn {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-btn img {
+  width: 1.5rem;
+  height: 1rem;
+}
+
 .popup {
   display: none;
 }
