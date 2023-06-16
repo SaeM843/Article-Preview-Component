@@ -13,6 +13,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            &:hover {
+                background-color: var.$very-dark-grayish-blue;
+            }
+
+            .arrow:hover {
+                filter: brightness(0) invert(1);
+            }
         
         }
 

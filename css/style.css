@@ -85,6 +85,12 @@ img {
   align-items: center;
   justify-content: center;
 }
+.social-media .share-btn:hover {
+  background-color: hsl(217, 19%, 35%);
+}
+.social-media .share-btn .arrow:hover {
+  filter: brightness(0) invert(1);
+}
 .social-media .popup {
   position: absolute;
   display: flex;
