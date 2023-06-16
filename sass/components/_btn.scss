@@ -25,7 +25,7 @@
         }
 
         .popup {
-            // display: none;
+            display: none;
             position: absolute;
             display: flex;
             background-color: var.$very-dark-grayish-blue;
@@ -50,6 +50,10 @@
 
             p {
                 color: var.$desaturated-dark-blue;
+            }
+
+            &.active {
+                display: block;
             }
         }
 

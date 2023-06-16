@@ -92,6 +92,7 @@ img {
   filter: brightness(0) invert(1);
 }
 .social-media .popup {
+  display: none;
   position: absolute;
   display: flex;
   background-color: hsl(217, 19%, 35%);
@@ -114,6 +115,9 @@ img {
 }
 .social-media .popup p {
   color: hsl(214, 17%, 51%);
+}
+.social-media .popup.active {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
