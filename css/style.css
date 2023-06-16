@@ -15,10 +15,16 @@ body {
   align-items: center;
   background-color: white;
   border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 40% 1fr;
 }
 
-.img {
+img {
   max-width: 100%;
+}
+
+.img-drawer {
+  background-image: url("../../images/drawers.jpg");
 }
 
 .avatar {
