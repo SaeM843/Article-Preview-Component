@@ -103,6 +103,7 @@ img {
   align-items: center;
   top: -5rem;
   left: -5.6rem;
+  opacity: 0;
 }
 .social-media .popup::before {
   content: "";
@@ -117,7 +118,7 @@ img {
   color: hsl(214, 17%, 51%);
 }
 .social-media .popup.active {
-  display: block;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

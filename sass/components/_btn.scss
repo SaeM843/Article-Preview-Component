@@ -36,6 +36,7 @@
             align-items: center;
             top: -5rem;
             left: -5.6rem;
+            opacity: 0;
         
 
             &::before {
@@ -53,7 +54,7 @@
             }
 
             &.active {
-                display: block;
+                opacity: 1;
             }
         }
 
