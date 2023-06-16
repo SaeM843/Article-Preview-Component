@@ -116,6 +116,8 @@ img {
 }
 .social-media .popup p {
   color: hsl(214, 17%, 51%);
+  font-size: 13px;
+  letter-spacing: 0.3rem;
 }
 .social-media .popup.active {
   opacity: 1;
