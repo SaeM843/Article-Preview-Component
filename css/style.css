@@ -72,4 +72,8 @@ img {
   color: hsl(212, 23%, 69%);
 }
 
+.popup {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
