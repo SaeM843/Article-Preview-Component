@@ -99,7 +99,7 @@ img {
   min-width: 220px;
   justify-content: space-evenly;
   border-radius: 0.5rem;
-  padding: 10px 5px;
+  padding: 15px 10px;
   align-items: center;
   top: -5rem;
   left: -5.6rem;
@@ -112,7 +112,7 @@ img {
   width: 2rem;
   clip-path: polygon(0 0, 100% 0%, 50% 100%);
   background-color: hsl(217, 19%, 35%);
-  top: 2.7rem;
+  top: 2.9rem;
 }
 .social-media .popup p {
   color: hsl(214, 17%, 51%);
