@@ -41,9 +41,9 @@ img {
   padding: 3rem;
 }
 .text-content h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: hsl(217, 19%, 35%);
-  line-height: 2rem;
+  line-height: 1.5;
 }
 .text-content .comment {
   padding: 1rem 0;
