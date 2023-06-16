@@ -28,6 +28,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  border-radius: 1rem 0 0 1rem;
 }
 
 .avatar {
